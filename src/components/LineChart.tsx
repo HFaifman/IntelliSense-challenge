@@ -8,7 +8,7 @@ interface LineChartProps {
 const LineChart = ({ data }: LineChartProps) => {
   const colors = data.map((item) => item.color)
   return (
-    <ResponsiveLineaaaa
+    <ResponsiveLine
       colors={colors}
       data={data}
       margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
